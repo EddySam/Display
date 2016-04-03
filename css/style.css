@@ -269,16 +269,27 @@ header {
 .projects-list ul li:hover{
     opacity: 1;
 }
-.arrow-left {
+.projects-list .inputtext .arrow-left {
     float: left;
     width: 60px;
-    height: 70px;
-    background-image: url(../);
+    height: 100px;
+    background: url('../images/arrow-left.png') no-repeat;
+    background-position: left center;
 }
-.arrow-right {
+.projects-list .inputtext .arrow-left:hover {
+    background: url('../images/arrow-lh.png') no-repeat;
+    background-position: left center;
+}
+.projects-list .inputtext .arrow-right {
     float: right;
     width: 60px;
-    height: 70px;
+    height: 100px;
+    background: url('../images/arrow-right.png') no-repeat;
+    background-position: right center;
+}
+.projects-list .inputtext .arrow-right:hover {
+    background: url('../images/arrow-rh.png') no-repeat;
+    background-position: right center;
 }
 .projects-list .black-block {
     margin-top: 50px;
