@@ -1,0 +1,191 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face {
+    font-family: 'fira-sans';
+    src: url('../fira/firasans-ultralight-webfont.eot');
+    src: url('../fira/firasans-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fira/firasans-ultralight-webfont.woff2') format('woff2'),
+    url('../fira/firasans-ultralight-webfont.woff') format('woff'),
+    url('../fira/firasans-ultralight-webfont.ttf') format('truetype'),
+    url('../fira/firasans-ultralight-webfont.svg#fira_sansultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*,html, body{
+	box-sizing: border-box;
+}
+
+*{
+	-webkit-transition: ease 1.00s ;
+	   -moz-transition:  ease 1.00s;
+	    -ms-transition:  ease 1.00s ;
+	     -o-transition:  ease 1.00s ;
+	        transition:  ease 1.00s ;
+}
+body{
+	background: #fcfcfc;
+}
+.container {
+	max-width: 940px;
+	margin: auto;
+}
+/********social icons********/
+header {
+	border-bottom:1px solid #dadada;
+	padding: 30px 0px
+}
+.social-icons{
+	float: right;
+	margin-top: 16px;
+}
+.social-icon {
+	width: 34px;
+	height: 34px;
+	background: url(../images/social-icons.png);
+	display: inline-block;
+}
+.social-icon-fecebook {background-position:0px -4px;}
+.social-icon-rss {background-position:159px -4px;}
+.social-icon-pinterest {background-position:117px -4px;}
+.social-icon-google {background-position:75px -4px;}
+.social-icon-dribbble {background-position:34px -4px;}
+
+.social-icon-fecebook:hover {background-position:0px -47px;}
+.social-icon-rss:hover {background-position:159px -47px;}
+.social-icon-pinterest:hover {background-position:117px -47px;}
+.social-icon-google:hover {background-position:75px -47px;}
+.social-icon-dribbble:hover {background-position:34px -47px;}
+/********and social icons********/
+.menu {
+	clear: both;
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu li{
+	display: inline-block; 
+}
+.menu li a {
+	display: inline-block; 
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 30px 30px   15px 0px;
+	color:#737373;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+.menu li:hover a{
+	color:#2ecc71;
+}
+.green-block {
+	background: #2ecc71;
+	text-align: center;
+}
+.green-block img {
+	position: relative;
+	bottom: -60px;
+	
+}
+.wite-block{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color:#aeadad;
+	padding: 113px 0 49px;
+	text-transform: uppercase;
+	line-height: 1.7;
+}
+.wite-block p{
+	margin-bottom: 27px
+	
+}
+.btm {
+	display: inline-block;
+	padding: 15px 20px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 600;
+	text-decoration: none;
+	border: 2px solid #2ecc71;
+}
+.btm-success{
+	background: #2ecc71;
+	color: #fff;
+}
+.btm-success:hover {
+	background: #fff;
+	color:#2ecc71;
+	border: 2px solid #2ecc71;
+}
+
+.grey-block {
+	background: #efefef;
+	padding: 40px 0px
+}
+.grey-block h2{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: 600;
+	color: #737373;
+	padding-bottom: 29px;
+}
+.grey-block p{
+	padding-bottom: 29px;
+	margin-left: 410px;
+}
+.grey-block img {
+	float: left;
+	margin-right: 30px;
+}
