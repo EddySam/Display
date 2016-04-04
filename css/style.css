@@ -63,6 +63,11 @@ table {
 *, html, body {
     box-sizing: border-box;
 }
+.row:before, .row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
 
 * {
     -webkit-transition: ease 1.00s;
@@ -255,16 +260,27 @@ header {
 }
 .projects-list ul{
     padding: 50px 0px;
+    font-size: 0;
+    box-sizing: border-box;
+
 }
 .projects-list ul li {
-    display: inline-block;
-    margin-right:21px ;
+    float: left;
+    opacity: 0.3;
+    width: 22%;
+    padding: 0 13px;
+    box-sizing: border-box;
+}
+.projects-list ul li img{
+    width: 100%;
 }
 .projects-list ul li:last-child {
-    margin-right:0px ;
+    padding:0px  0px 0px 40px;
+    width: 17%;
 }
-.projects-list ul li{
-    opacity: 0.3;
+.projects-list ul li:first-child {
+    padding:0px 40px 0px 0px ;
+    width: 17%;
 }
 .projects-list ul li:hover{
     opacity: 1;
